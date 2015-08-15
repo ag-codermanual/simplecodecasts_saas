@@ -42,8 +42,7 @@ GEM
       json
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    boostrap-sass (0.0.2)
-      bootstrap-sass
+    bootstrap (0.0.1)
     bootstrap-sass (3.3.5.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.3.0)
@@ -156,7 +155,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  boostrap-sass
+  bootstrap
+  bootstrap-sass
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
